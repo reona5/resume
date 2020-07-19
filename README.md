@@ -1,3 +1,4 @@
+<!-- (generate pdf file) $md2pdf README.md -->
 # Resume
 
 ## Profile
