@@ -1,4 +1,4 @@
-<!-- (generate pdf file) $md2pdf README.md -->
+<!-- (generate pdf file) $ md2pdf README.md -->
 # Resume
 
 ## Profile
@@ -121,7 +121,7 @@ TypeScript, React.jsでブログ環境を構築
 
 - Ruby on Railsによる資格試験学習サイトの保守運用
   - チケット化されたバグの改修
-  - 不足しているModel Specテストカバレッジ
+  - 不足しているModel Specの補填によるテストカバレッジ向上
 
 ###  某新薬メーカー (2017/04 - 2019/07)
 
@@ -132,4 +132,3 @@ TypeScript, React.jsでブログ環境を構築
 - 品目別前年同期比支店内トップの実績を獲得(支店MR約100名中1位)
 - 各医薬品卸において自社品目新規採用を表彰頂く。(全5支店中3支店)
 - 独学でプログラミングの勉強を始める。[MENTA](https://menta.work/)で技術的なサポートを受けつつポートフォリオを作成する。（2019/01 - 2019/05）
-
