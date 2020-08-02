@@ -91,7 +91,8 @@ TypeScript, React.jsでブログ環境を構築
   - Stripeを用いたサブスクリプション決済機能の実装
   - RSpecでのテストファーストな実装
   - SendGridを用いたメール配信機能の実装
-  - syoryuken, SQSを用いたバッチ処理の実装
+  - Active Jobs, syoryuken, Amazon SQSを用いたバッチ処理の実装
+  - Action Mailerの実装
   - Rakeタスクの実装
 - C向けメンズ美容サービスのWeb/iOSアプリ開発
   - Ruby on Rails(active interaction, active model serializers)によるREST APIサーバの実装
