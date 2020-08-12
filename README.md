@@ -38,9 +38,6 @@ TypeScript, React.jsでブログ環境を構築
 - Swift
   - SwiftUI
   - Combine
-
-### 業務経験あり（触った程度）
-
 - JavaScript
   - Vue.js
   - JQuery
@@ -110,6 +107,7 @@ TypeScript, React.jsでブログ環境を構築
     - Twitter API
     - Facebook Graph API
     - Google Drive API
+    - SwagGen導入によるコード自動生成
 
 ### C向け資格試験学習サイト (2020/01 ~ 2020/05)
 
