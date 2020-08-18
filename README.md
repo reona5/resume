@@ -27,7 +27,7 @@
 
 https://reona.dev
 
-TypeScript, React.jsでブログ環境を構築
+TypeScript, Next.jsでブログ環境を構築
 
 ## Skills
 
@@ -131,3 +131,4 @@ TypeScript, React.jsでブログ環境を構築
 - 品目別前年同期比支店内トップの実績を獲得(支店MR約100名中1位)
 - 各医薬品卸において自社品目新規採用を表彰頂く。(全5支店中3支店)
 - 独学でプログラミングの勉強を始める。[MENTA](https://menta.work/)で技術的なサポートを受けつつポートフォリオを作成する。（2019/01 - 2019/05）
+  - [Lesson](https://github.com/reona5/Lesson)（現在はクローズ）
