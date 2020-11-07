@@ -8,15 +8,17 @@
 |Name|嶋田 怜央成|
 |Birth(Age)|1994/05/30(26)|
 |Sex|男性（既婚、子なし）|
-|Location|静岡県浜松市|
+|Location|神奈川県横浜市|
 |Education|神奈川大学人間科学部卒|
 |Mail|shimada.reona@gmail.com|
 |Twitter|[@reona_5](https://twitter.com/reona_5)|
 
 ## Hobby
 
-- カラオケ
+- ハンドボール
+- 筋トレ
 - 音楽フェス, コンサート
+- カラオケ
 - 料理
 - お酒
 - シーシャ
@@ -54,15 +56,6 @@ TypeScript, Next.js でブログ環境を構築
 ### エディタ
 
 - NeoVim
-- Visual Studio Code
-
-### その他
-
-- Swagger
-- Pivotal Tracker
-- Trello
-- Backlog
-- BitBucket
 
 ## Career
 
@@ -75,43 +68,52 @@ TypeScript, Next.js でブログ環境を構築
 
 #### プロジェクト
 
-- B 向け業務代行サービスの受託開発
-  - 既存機能拡張やバグ改修をメインで担当
-  - Ruby on Rails / Vue.js 利用した管理者画面の構築
-  - CanCanCan, Pundit によるユーザー権限の管理
-- C 向け通信系サービスの開発支援
-  - リリース前のコア機能実装を担当
-  - Ruby on Rails (active model serializers) による REST API サーバの実装
-    - 個人情報入力や決済処理、SIM の付与等を含む契約フローをメインで担当
-  - フロントエンドは React/Redux
-  - Swagger による API ドキュメントの管理
-  - Stripe を用いたサブスクリプション決済機能の実装
+##### B 向け業務代行サービスの受託開発
+- 既存機能拡張やバグ改修をメインで担当
+- Ruby on Rails / Vue.js 利用した管理者画面の構築
+- CanCanCan, Pundit によるユーザー権限の管理
+##### C 向け通信系サービスの開発支援
+- リリース前のコア機能実装を担当
+- Ruby on Rails (active model serializers) による REST API サーバの実装
+  - 個人情報入力や決済処理、SIM の付与等を含む契約フローをメインで担当
+- フロントエンドは React/Redux
+- Swagger による API ドキュメントの管理
+- Stripe を用いたサブスクリプション決済機能の実装
+- RSpec でのテストファーストな実装
+- SendGrid を用いたメール配信機能の実装
+- Active Jobs, syoryuken, Amazon SQS を用いたバッチ処理の実装
+- Action Mailer の実装
+- Rake タスクの実装
+##### C向けメンズ美容サービスのWeb/iOSアプリ開発
+- Ruby on Rails (active interaction, active model serializers) による REST API サーバの実装
+  - jwt, device を用いたユーザー認証機能の実装
+  - faraday, faraday middleware を用いた SNS アカウントによるユーザー認証機能
+  - Twitter API
+  - Facebook Graph API
+  - Google People API
+  - Ransack による検索機能の実装
+- Swagger によるAPI I/F仕様書の導入提案及び Docker 上での SwaggerUI の環境構築
+- MVVM を採用し、Swift (SwiftUI, Combine) によるゼロベースでの UI, MVVM クライアント API 実装を担当
+  - XCodeGen によるプロジェクト管理
+  - bitrise による CI の導入
+  - OAuthSwift を用いた SNS の認可処理の実装
+  - Twitter API
+  - Facebook Graph API
+  - Google Drive API
+  - SwagGen 導入によるコード自動生成
+##### 医療脱毛クリニックの顧客管理システム開発（SPA）
+
+###### 契約関連書類の電子化（ペーパーレス）
+- Ruby on Rails (active model serializers) による REST API サーバの実装（OpenAPI, committee によるスキーマ駆動開発）
   - RSpec でのテストファーストな実装
-  - SendGrid を用いたメール配信機能の実装
-  - Active Jobs, syoryuken, Amazon SQS を用いたバッチ処理の実装
-  - Action Mailer の実装
-  - Rake タスクの実装
-- C向けメンズ美容サービスのWeb/iOSアプリ開発
-  - Ruby on Rails (active interaction, active model serializers) による REST API サーバの実装
-    - jwt, device を用いたユーザー認証機能の実装
-    - faraday, faraday middleware を用いた SNS アカウントによるユーザー認証機能
-    - Twitter API
-    - Facebook Graph API
-    - Google People API
-    - Ransack による検索機能の実装
-  - Swagger によるAPI I/F仕様書の導入提案及び Docker 上での SwaggerUI の環境構築
-  - MVVM を採用し、Swift (SwiftUI, Combine) によるゼロベースでの UI, MVVM クライアント API 実装を担当
-    - XCodeGen によるプロジェクト管理
-    - bitrise による CI の導入
-    - OAuthSwift を用いた SNS の認可処理の実装
-    - Twitter API
-    - Facebook Graph API
-    - Google Drive API
-    - SwagGen 導入によるコード自動生成
-- 医療脱毛クリニックの顧客管理システム開発/契約関連書類の電子化（ペーパーレス）
-  - Ruby on Rails (active model serializers) による REST API サーバの実装
-    - 契約書類をサーバーサイドで pdf として動的に生成し、API レスポンスに加え、HTML 内に埋め込む（rails_pdf）
-  - Vue.js, TypeScript を用いたフロントエンド開発
+  - parameter クラスの実装（ActiveModel::Attributes）
+  - 契約書類を pdf ファイルとして動的に生成、電子サイン組み込み（wicked_pdf, wkhtmltopdf）
+  - 契約書類の雛形となる view テンプレートの作成（erb）
+  - ActiveStorage を用いてユーザーと各契約書類を紐付け、書類のサムネイル化
+  - ActionMailer を用いた同意書類通知
+  - rqrcode を用いた問診票 URL の QR コード生成
+  - openapi-generator を用いた API 定義からの API Client 生成
+- Vue.js, TypeScript を用いたフロントエンド開発
 
 ### C 向け資格試験学習サイト (2020/01 ~ 2020/05)
 
@@ -122,9 +124,9 @@ TypeScript, Next.js でブログ環境を構築
 
 #### プロジェクト
 
-- Ruby on Rails による資格試験学習サイトの保守運用
-  - チケット化されたバグの改修
-  - 不足している Model Spec の補填によるテストカバレッジ向上
+##### Ruby on Rails による資格試験学習サイトの保守運用
+- チケット化されたバグの改修
+- 不足している Model Spec の補填によるテストカバレッジ向上
 
 ###  某新薬メーカー (2017/04 - 2019/07)
 
