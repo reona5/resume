@@ -69,10 +69,13 @@ TypeScript, Next.js でブログ環境を構築
 #### プロジェクト
 
 ##### B 向け業務代行サービスの受託開発
+
 - 既存機能拡張やバグ改修をメインで担当
 - Ruby on Rails / Vue.js 利用した管理者画面の構築
 - CanCanCan, Pundit によるユーザー権限の管理
+
 ##### C 向け通信系サービスの開発支援
+
 - リリース前のコア機能実装を担当
 - Ruby on Rails (active model serializers) による REST API サーバの実装
   - 個人情報入力や決済処理、SIM の付与等を含む契約フローをメインで担当
@@ -84,7 +87,9 @@ TypeScript, Next.js でブログ環境を構築
 - Active Jobs, syoryuken, Amazon SQS を用いたバッチ処理の実装
 - Action Mailer の実装
 - Rake タスクの実装
+
 ##### C向けメンズ美容サービスのWeb/iOSアプリ開発
+
 - Ruby on Rails (active interaction, active model serializers) による REST API サーバの実装
   - jwt, device を用いたユーザー認証機能の実装
   - faraday, faraday middleware を用いた SNS アカウントによるユーザー認証機能
@@ -101,9 +106,11 @@ TypeScript, Next.js でブログ環境を構築
   - Facebook Graph API
   - Google Drive API
   - SwagGen 導入によるコード自動生成
+
 ##### 医療脱毛クリニックの顧客管理システム開発（SPA）
 
 ###### 契約関連書類の電子化（ペーパーレス）
+
 - Ruby on Rails (active model serializers) による REST API サーバの実装（OpenAPI, committee によるスキーマ駆動開発）
   - RSpec でのテストファーストな実装
   - parameter クラスの実装（ActiveModel::Attributes）
