@@ -61,58 +61,16 @@ TypeScript, Next.js でブログ環境を構築
 
 #### プロジェクト
 
-##### B 向け業務代行サービスの受託開発(2019/08 - 2019/10)
-
-- 既存機能拡張やバグ改修をメインで担当
-- Ruby on Rails / Vue.js 利用した管理者画面の構築
-- CanCanCan, Pundit によるユーザー権限の管理
-
-##### C 向け通信系サービスの開発支援(2019/10 - 2020/01)
-
-- リリース前のコア機能実装を担当
-- Ruby on Rails (active model serializers) による REST API サーバの実装
-  - 個人情報入力や決済処理、SIM の付与等を含む契約フローをメインで担当
-- フロントエンドは React/Redux
-- Swagger による API ドキュメントの管理
-- Stripe を用いたサブスクリプション決済機能の実装
-- RSpec でのテストファーストな実装
-- SendGrid を用いたメール配信機能の実装
-- Active Jobs, syoryuken, Amazon SQS を用いたバッチ処理の実装
-- Action Mailer の実装
-- Rake タスクの実装
-
-##### C 向けメンズ美容サービスの Web/iOS アプリ開発(2020/02 - 2020/07)
+##### C 向け ファンコミュニティアプリ(2020/02 - )
 
 - Ruby on Rails (active interaction, active model serializers) による REST API サーバの実装
-  - jwt, device を用いたユーザー認証機能の実装
-  - faraday, faraday middleware を用いた SNS アカウントによるユーザー認証機能
-  - Twitter API
-  - Facebook Graph API
-  - Google People API
-  - Ransack による検索機能の実装
-- Swagger によるAPI I/F仕様書の導入提案及び Docker 上での SwaggerUI の環境構築
-- MVVM を採用し、Swift (SwiftUI, Combine) によるゼロベースでの UI, MVVM クライアント API 実装を担当
-  - XCodeGen によるプロジェクト管理
-  - bitrise による CI の導入
-  - OAuthSwift を用いた SNS の認可処理の実装
-  - Twitter API
-  - Facebook Graph API
-  - Google Drive API
-  - SwagGen 導入によるコード自動生成
-
-##### 医療脱毛クリニックの顧客管理システム開発(2020/08 - 2020/11)
-
-- 契約関連書類の電子化（ペーパーレス）
-  - Ruby on Rails (active model serializers) による REST API サーバの実装（OpenAPI, committee によるスキーマ駆動開発）
-    - RSpec でのテストファーストな実装
-    - parameter クラスの実装（ActiveModel::Attributes）
-    - 契約書類を pdf ファイルとして動的に生成、電子サイン組み込み（wicked_pdf, wkhtmltopdf）
-    - 契約書類の雛形となる view テンプレートの作成（erb）
-    - ActiveStorage を用いてユーザーと各契約書類を紐付け、書類のサムネイル化
-    - ActionMailer を用いた同意書類通知
-    - rqrcode を用いた問診票 URL の QR コード生成
-    - openapi-generator を用いた API 定義からの API Client 生成
-  - Vue.js, TypeScript を用いたフロントエンド開発
+  - Omniauth を用いたSNSアカウント認証機能の実装
+    - Twitter
+    - Apple
+  - ActiveStorage を用いたアイコンアップロード機能
+  - 投稿機能
+  - いいね機能
+- rswag を用いて RSpec から OpenAPI のスキーマを自動生成
 
 ##### B 向け食材・調味料発注アプリ(2020/12 - )
 
@@ -144,16 +102,58 @@ TypeScript, Next.js でブログ環境を構築
     - クイック発注内商品
   - ログイン
 
-##### C 向け ファンコミュニティアプリ(2020/02 - )
+##### 医療脱毛クリニックの顧客管理システム開発(2020/08 - 2020/11)
+
+- 契約関連書類の電子化（ペーパーレス）
+  - Ruby on Rails (active model serializers) による REST API サーバの実装（OpenAPI, committee によるスキーマ駆動開発）
+    - RSpec でのテストファーストな実装
+    - parameter クラスの実装（ActiveModel::Attributes）
+    - 契約書類を pdf ファイルとして動的に生成、電子サイン組み込み（wicked_pdf, wkhtmltopdf）
+    - 契約書類の雛形となる view テンプレートの作成（erb）
+    - ActiveStorage を用いてユーザーと各契約書類を紐付け、書類のサムネイル化
+    - ActionMailer を用いた同意書類通知
+    - rqrcode を用いた問診票 URL の QR コード生成
+    - openapi-generator を用いた API 定義からの API Client 生成
+  - Vue.js, TypeScript を用いたフロントエンド開発
+
+##### C 向けメンズ美容サービスの Web/iOS アプリ開発(2020/02 - 2020/07)
 
 - Ruby on Rails (active interaction, active model serializers) による REST API サーバの実装
-  - Omniauth を用いたSNSアカウント認証機能の実装
-    - Twitter
-    - Apple
-  - ActiveStorage を用いたアイコンアップロード機能
-  - 投稿機能
-  - いいね機能
-- rswag を用いて RSpec から OpenAPI のスキーマを自動生成
+  - jwt, device を用いたユーザー認証機能の実装
+  - faraday, faraday middleware を用いた SNS アカウントによるユーザー認証機能
+  - Twitter API
+  - Facebook Graph API
+  - Google People API
+  - Ransack による検索機能の実装
+- Swagger によるAPI I/F仕様書の導入提案及び Docker 上での SwaggerUI の環境構築
+- MVVM を採用し、Swift (SwiftUI, Combine) によるゼロベースでの UI, MVVM クライアント API 実装を担当
+  - XCodeGen によるプロジェクト管理
+  - bitrise による CI の導入
+  - OAuthSwift を用いた SNS の認可処理の実装
+  - Twitter API
+  - Facebook Graph API
+  - Google Drive API
+  - SwagGen 導入によるコード自動生成
+
+##### C 向け通信系サービスの開発支援(2019/10 - 2020/01)
+
+- リリース前のコア機能実装を担当
+- Ruby on Rails (active model serializers) による REST API サーバの実装
+  - 個人情報入力や決済処理、SIM の付与等を含む契約フローをメインで担当
+- フロントエンドは React/Redux
+- Swagger による API ドキュメントの管理
+- Stripe を用いたサブスクリプション決済機能の実装
+- RSpec でのテストファーストな実装
+- SendGrid を用いたメール配信機能の実装
+- Active Jobs, syoryuken, Amazon SQS を用いたバッチ処理の実装
+- Action Mailer の実装
+- Rake タスクの実装
+
+##### B 向け業務代行サービスの受託開発(2019/08 - 2019/10)
+
+- 既存機能拡張やバグ改修をメインで担当
+- Ruby on Rails / Vue.js 利用した管理者画面の構築
+- CanCanCan, Pundit によるユーザー権限の管理
 
 
 ### 某新薬メーカー (2017/04 - 2019/07)
