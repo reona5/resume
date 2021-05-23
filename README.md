@@ -16,7 +16,6 @@
 ## Hobby
 
 - ハンドボール
-- 筋トレ
 - フェス
 - カラオケ
 - 料理
@@ -26,7 +25,6 @@
 ## Output
 
 - Blog
-
 https://reona.dev
 
 TypeScript, Next.js でブログ環境を構築
@@ -47,9 +45,13 @@ TypeScript, Next.js でブログ環境を構築
     - React.js
       - Next.js
 
-## エディタ
+## Editor
 
 - NeoVim
+
+## Certification
+
+- 基本情報技術者試験 2021/06
 
 ## Career
 
@@ -61,16 +63,6 @@ TypeScript, Next.js でブログ環境を構築
 
 #### プロジェクト
 
-##### C 向け ファンコミュニティアプリ(2020/02 - )
-
-- Ruby on Rails (active interaction, active model serializers) による REST API サーバの実装
-  - Omniauth を用いたSNSアカウント認証機能の実装
-    - Twitter
-    - Apple
-  - ActiveStorage を用いたアイコンアップロード機能
-  - 投稿機能
-  - いいね機能
-- rswag を用いて RSpec から OpenAPI のスキーマを自動生成
 
 ##### B 向け食材・調味料発注アプリ(2020/12 - )
 
@@ -79,16 +71,16 @@ TypeScript, Next.js でブログ環境を構築
   - テストカバレッジが低いため、テストを積極的に追加（主に service 層）
 - ActionMailer を用いた出荷遅延通知の追加
 - 商品サムネイルのスワイプ
-- クイック発注でのカートの状態保持（sessionStorage）
-- Rails Admin
+- クイック発注でのカートの状態保持(sessionStorage)
+- 管理画面(RailsAdmin)
   - CSVインポート機能
   - レコード検索・絞り込み機能
   - 利用申請と得意先の連携解除機能
   - 利用申請削除機能（得意先関連レコードの削除）
-- 消費税計算方法の修正
+- 消費税計算方法の修正(総額表示義務化への対応)
   - 合計(税別) = 8% 合計(税別) + 10% 合計(税別) => 税抜金額合計
   - 合計(税込) = 購入合計(税別) + 8% 消費税合計 + 10% 消費税合計 => 税込金額合計
-- KARTEタグ導入によるユーザー解析
+- KARTE タグ導入によるユーザー解析
   - 閲覧(SPA含む)
   - カート（SPA含む）
   - 購入(カート・1タップ購入・クイック発注)
@@ -101,6 +93,17 @@ TypeScript, Next.js でブログ環境を構築
     - 商品・メニュー
     - クイック発注内商品
   - ログイン
+
+##### C 向け ファンコミュニティアプリ(2021/02 - 2021/04)
+
+- Ruby on Rails (active interaction, active model serializers) による REST API サーバの実装
+  - Omniauth を用いたSNSアカウント認証機能の実装
+    - Twitter
+    - Apple
+  - ActiveStorage を用いたアイコンアップロード機能
+  - 投稿機能
+  - いいね機能
+- rswag を用いて RSpec から OpenAPI のスキーマを自動生成
 
 ##### 医療脱毛クリニックの顧客管理システム開発(2020/08 - 2020/11)
 
