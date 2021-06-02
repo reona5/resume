@@ -51,7 +51,8 @@ TypeScript, Next.js でブログ環境を構築
 
 ## Certification
 
-- 基本情報技術者試験 2021/06
+- MR 認定試験
+- 基本情報技術者試験
 
 ## Career
 
@@ -73,7 +74,7 @@ TypeScript, Next.js でブログ環境を構築
 - 商品サムネイルのスワイプ
 - クイック発注でのカートの状態保持(sessionStorage)
 - 管理画面(RailsAdmin)
-  - CSVインポート機能
+  - CSV Import/Export
   - レコード検索・絞り込み機能
   - 利用申請と得意先の連携解除機能
   - 利用申請削除機能（得意先関連レコードの削除）
