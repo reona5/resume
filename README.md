@@ -6,8 +6,8 @@
 |key|value|
 |----|----|
 |Name|嶋田 怜央成|
-|Birth(Age)|1994/05/30(26)|
-|Sex|男性（既婚、子なし）|
+|Birth(Age)|1994/05/30(27)|
+|Sex|男性|
 |Location|神奈川県横浜市|
 |Education|神奈川大学人間科学部卒|
 |Mail|shimada.reona@gmail.com|
@@ -15,6 +15,7 @@
 
 ## Hobby
 
+- 筋トレ
 - ハンドボール
 - フェス
 - カラオケ
@@ -51,8 +52,8 @@ TypeScript, Next.js でブログ環境を構築
 
 ## Certification
 
-- MR 認定試験
-- 基本情報技術者試験
+- 基本情報技術者試験 (2021/06)
+- MR 認定試験 (2018/04)
 
 ## Career
 
@@ -64,12 +65,14 @@ TypeScript, Next.js でブログ環境を構築
 
 #### プロジェクト
 
-
 ##### B 向け食材・調味料発注アプリ(2020/12 - )
 
 - Ruby on Rails, Vue.js(Vuex) でのバックエンド・フロントエンド開発がメイン
   - View 層は半分以上を Rails(haml) が担っており、部分的に Vue がレンダリングされている（リプレイスも担当）
-  - テストカバレッジが低いため、テストを積極的に追加（主に service 層）
+- RSpec
+  - 書かれていないテストの追加（機能追加時はテストを追加）
+  - Pending の解消(44 -> 0)
+  - 警告の解消
 - ActionMailer を用いた出荷遅延通知の追加
 - 商品サムネイルのスワイプ
 - クイック発注でのカートの状態保持(sessionStorage)
@@ -94,6 +97,13 @@ TypeScript, Next.js でブログ環境を構築
     - 商品・メニュー
     - クイック発注内商品
   - ログイン
+- 既に使われていない不要な機能・gem の削除
+- Rails バージョンアップ
+  - 6.0.3.7 -> 6.1.4
+  - ActiveInteraction へのコントリビュート
+    - [Replace string passed to :unless with proc #509](https://github.com/AaronLasseigne/active_interaction/pull/509)
+- Ruby バージョンアップ
+  - 2.6.5 -> 2.7.3
 
 ##### C 向け ファンコミュニティアプリ(2021/02 - 2021/04)
 
