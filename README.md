@@ -55,6 +55,11 @@ TypeScript, Next.js でブログ環境を構築
 - 基本情報技術者試験 (2021/06)
 - MR 認定試験 (2018/04)
 
+## OSS Contributes
+
+- [AaronLasseigne/active_interaction](https://github.com/AaronLasseigne/active_interaction)
+  - [Replace string passed to :unless with proc #509](https://github.com/AaronLasseigne/active_interaction/pull/509)
+
 ## Career
 
 ### C向けサービスベンチャー (2019/08 - )
@@ -100,8 +105,6 @@ TypeScript, Next.js でブログ環境を構築
 - 既に使われていない不要な機能・gem の削除
 - Rails バージョンアップ
   - 6.0.3.7 -> 6.1.4
-  - ActiveInteraction へのコントリビュート
-    - [Replace string passed to :unless with proc #509](https://github.com/AaronLasseigne/active_interaction/pull/509)
 - Ruby バージョンアップ
   - 2.6.5 -> 2.7.3
 
