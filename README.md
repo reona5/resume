@@ -34,6 +34,8 @@ TypeScript, Next.js でブログ環境を構築
 ## Skills
 
 - 業務経験あり
+  - MySQL
+  - PostgreSQL
   - Ruby
     - Ruby on Rails
   - Swift
